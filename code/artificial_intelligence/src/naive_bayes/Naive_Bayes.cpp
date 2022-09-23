@@ -19,10 +19,7 @@ public:
 int main() {
     //create new class flower with color, hemisphere as x values
     //y is if it has sweet smell or not
-    //Marigold: yellow, south, sweet
-    //Rose: white, south, not-sweet
-    //Lily: white, north, not-sweet
-    //Jasmine: white, north, sweet
+    //dataset is flowers
 
     float white = 0;
     float yellow = 0;
@@ -38,7 +35,8 @@ int main() {
     float non_sweet_north = 0;
     float sweet = 0;
     float non_sweet = 0;
-
+    
+    //hard-coded dataset below
     vector<Flower> flowers;
     Flower flower1("Marigold","south","yellow",true);
     Flower flower2("Rose","south","white",false);
